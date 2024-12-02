@@ -34,6 +34,7 @@ function imageSequence(config) {
     imageUrls.push(`img/illust_ae${i.toString().padStart(2, '0')}.png`);
   }
   
+  //ここがconfigに入る部分
   imageSequence({
     urls: imageUrls,
     canvas: "#image-sequence",
@@ -43,4 +44,6 @@ function imageSequence(config) {
       scrub: true
     }
   });
+
+  //コピペでいい
   
