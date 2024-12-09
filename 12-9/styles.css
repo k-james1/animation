@@ -1,0 +1,25 @@
+.dummy-container {
+    height: 100vh;
+    }
+    .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .static-image,
+    .animated-gif {
+    width: 60%;
+    
+    height: auto;
+    position: absolute;
+    }
+    .animated-gif {
+    opacity: 0;
+    }
+    @media screen and (max-width: 480px) {
+    .static-image,
+    .animated-gif {
+    width: 96%;
+    }
+    }
